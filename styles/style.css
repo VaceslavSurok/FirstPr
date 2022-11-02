@@ -1,0 +1,27 @@
+@import url("fonts.css");
+h1 {
+      font-family: 'Lora';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 45px;
+}
+<div class="rectangle text">прямоугольник с текстом слева</div>
+<div style="width: 70%; height: 50px; border:1px solid; margin:auto;"></div>
+<style>
+width: 70%;
+height: 50px;
+border:1px solid;
+margin:auto;
+background: #25537b;
+</style>
+.rectangle{
+    width: 70%;
+    height: 50px;
+    border:1px solid;
+    margin:auto;
+    background: #25537b;}
+.text_center{
+    color: #ffffff;
+    text-align: center;
+}
+<div class="rectangle text_center">текст внутри прямоугольника по центру</div>
